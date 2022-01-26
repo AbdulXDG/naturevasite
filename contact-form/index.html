@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Basic HTML5 Contact Form</title>
+  <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1> HTML5 Contact Form</h1>
+	<form>
+		<label for="date-picker">Date picker</label>
+		<input type="date" name="date-picker" id="date-picker" value="2010-10-06">
+		
+		<label for="text-field">Text field with placeholder</label>
+		<input type="text" name="text-field" id="text-field" placeholder="Insert your text here">
+	
+		<label for="url-field">Url</label>
+		<input type="url" id="url-field" name="url-field" placeholder="http://www.example.com" required>
+	
+		<label for="email-field">Email</label>
+		<input type="email" id="email-field" name="email-field" placeholder="youremail@gmail.com" required>
+		
+		<button type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+			<span class="ui-button-text">Submit form</span>
+		</button>
+		<div class="clearfix"></div>
+	</form>
+
+	
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script  src="js/index.js"></script>
+
+	</body>
+</html>

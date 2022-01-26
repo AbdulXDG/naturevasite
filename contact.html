@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="banner">
+    <div class="navbar">
+        <img src="images/logo.png" class="logo">
+        <ul>
+          <li><a href="index.html"><strong>Home</strong></a></li>
+          <li><a href="flora.html"><strong>Flora</strong></a></li>
+          <li><a href="fauna.html"><strong>Fauna</strong></a></li>
+          <li><a href="donate.html"><strong>Donate</strong></a></li>
+          <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+        </ul>
+        </div>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <form id="contact" action="https://formspree.io/f/mbjwdoby" method="post">
+                <input name="name" class="field" placeholder="Your Name">
+                <input type="email" class="field" placeholder="Your Email">
+                <input type="phone" class="field" placeholder="Your Phone">
+                <textarea name="text" class="field" placeholder="Message"></textarea>
+                <button class="btn ">Send</button>
+
+                <div id="status"></div>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
