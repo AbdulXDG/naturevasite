@@ -17,11 +17,6 @@
     </style>
   </head>
 <body>
-  <div class="container" id="loading">
-    <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-    </div>
   <div class="banner">
 <div class="navbar">
   <img src="images/logo.png" class="logo">
@@ -50,15 +45,5 @@
               <button class="btn"><span class="ty"></span>Learn More</button>
             </div>
               </div>
-              <script>
-                $(window).on('load', function(){
-  setTimeout(removeLoader, 2000);
-});
-function removeLoader(){
-    $( "#loading" ).fadeOut(500, function() {
-      // fadeOut complete. Remove the loading div
-      $( "#loading" ).remove(); //makes page more lightweight 
-  })}
-                </script>
 </body>
 </html>
