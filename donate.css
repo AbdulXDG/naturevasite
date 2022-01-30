@@ -79,6 +79,7 @@ h2{
   left: 0;
   bottom: -10px;
   transition:0.5s;
+  
 }
 .navbar ul li:hover::after{
   width:100%;
